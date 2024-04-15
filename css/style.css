@@ -15,6 +15,10 @@
     background-color: var(--bg-gray) !important;
 }
 
+.bg-dark {
+    background-color: var(--secondary) !important;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
