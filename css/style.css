@@ -19,6 +19,10 @@
     background-color: var(--secondary) !important;
 }
 
+.text-secondary {
+    color: var(--secondary) !important;
+}
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
