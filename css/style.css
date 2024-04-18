@@ -16,7 +16,7 @@
 }
 
 .bg-dark {
-    background-color: var(--secondary) !important;
+    background-color: var(--primary) !important;
 }
 
 .text-secondary {
