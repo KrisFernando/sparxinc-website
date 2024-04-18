@@ -1,10 +1,10 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0E568C;
-    --secondary: #4c0a2a;
+    --primary: #0D568C;
+    --secondary: #bace2a;
     --bg-gray: #83bad8;
     --light: #F4F7FE;
-    --dark: #14183E;
+    --dark: #00355d;
 }
 
 .bg-primary {
@@ -16,11 +16,11 @@
 }
 
 .bg-dark {
-    background-color: var(--primary) !important;
+    background-color: var(--dark) !important;
 }
 
 .text-secondary {
-    color: var(--secondary) !important;
+    color: var(--dark) !important;
 }
 
 /*** Spinner ***/
