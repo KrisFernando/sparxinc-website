@@ -11,6 +11,10 @@
     background-color: var(--primary) !important;
 }
 
+.bg-secondary {
+    background-color: var(--secondary) !important;
+}
+
 .bg-light-2 {
     background-color: var(--bg-gray) !important;
 }
@@ -20,6 +24,10 @@
 }
 
 .text-secondary {
+    color: var(--secondary) !important;
+}
+
+.text-dark {
     color: var(--dark) !important;
 }
 
