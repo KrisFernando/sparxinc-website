@@ -79,7 +79,13 @@
         var off = $('#why').offset().top-95;
         $('html, body').animate({scrollTop: off}, 200, 'easeInOutExpo');
         return false;
-    });    
+    });
+    
+    $('.menu-providers').click(function () {
+        var off = $('#providers').offset().top-95;
+        $('html, body').animate({scrollTop: off}, 200, 'easeInOutExpo');
+        return false;
+    });
 
     $('.menu-faq').click(function () {
         var off = $('#faq').offset().top-95;
