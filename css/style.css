@@ -335,6 +335,9 @@ h6,
     background: var(--light);
 }
 
+.img-fluid {
+    width: 100%;
+}
 
 /*** Feature ***/
 .feature {
