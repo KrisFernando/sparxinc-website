@@ -431,9 +431,10 @@ h6,
 }
 
 .accordion .accordion-button {
-    color: var(--primary);
+    color: #FFFFFF;
     background: var(--bg-gray);
     border-radius: 2px;
+    font-size: 1.3rem;
 }
 
 .accordion .accordion-button:not(.collapsed) {
