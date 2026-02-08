@@ -106,6 +106,12 @@
             opacity: 0.3;
         }
 
+        .mode-header {
+            color: var(--bg-primary);
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
         .password-display {
             display: flex;
             align-items: center;
@@ -449,6 +455,10 @@
 <body>
     <div class="container">
         <div class="card">
+            <div class="mode-header">
+                    <h1 class="mode-title">🔐 Password Generator</h1>
+                    <p class="mode-subtitle">Generate a secure password</p>
+                </div>
             <div class="password-display">
                 <div class="password-value" id="passwordValue">V735-GTp>Ook</div>
                 <button class="icon-btn" id="refreshBtn" title="Generate new password">
