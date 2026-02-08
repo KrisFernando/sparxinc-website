@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Pusher</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Lexend:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -536,7 +537,7 @@
 
         .result-value {
             font-family: 'DM Mono', monospace;
-            font-size: 24px;
+            font-size: 28px;
             font-weight: 500;
             color: var(--text-primary);
             word-break: break-all;
@@ -600,7 +601,7 @@
         <div class="card">
             <div class="header">
                 <div class="mode-badge" id="modeBadge">Encrypt Mode</div>
-                <h1 class="title">Password Pusher</h1>
+                <h1 class="title">🔗 Password Pusher</h1>
                 <p class="subtitle">Securely share passwords</p>
             </div>
 
@@ -762,7 +763,7 @@
             const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
             const lowercase = 'abcdefghijklmnopqrstuvwxyz';
             const numbers = '0123456789';
-            const symbols = '-._~';
+            const symbols = '~!@#$%^&*-_=+?';
             
             // Create extended hash by hashing multiple times for more material
             const hash2 = md5(hash);
@@ -913,7 +914,7 @@
 
         // Update URL and generate password hash
         function updateUrl() {
-            const passcode = passcodeInput.value.trim();
+            const passcode = passcodeInput.value.trim().toLowerCase();
             
             if (!passcode || !currentToken) {
                 urlDisplay.style.display = 'none';
